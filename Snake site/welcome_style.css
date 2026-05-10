@@ -1,0 +1,60 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+nav {
+    background-color: #116432;
+    padding: 30px;
+    color: white;
+}
+nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 60px;
+    transition: 0.3s;
+}
+
+.welcome-content {
+    width: 50%;
+    margin-left: 30px;
+}
+
+input[type="button"] {
+    background-color: #116432;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #000000;
+}
+
+p {
+    font-size: 19px;
+}
+
+.welcome-image{
+    width: 50%;
+}
+
+.welcome-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.welcome-layout {
+    display: flex;
+    min-height: 80vh;
+    min-height: calc(100vh - 84px);
+}
+
+nav a:hover {
+    color: #000000;
+}
